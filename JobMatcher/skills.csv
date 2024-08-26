@@ -1,0 +1,1855 @@
+id,skills
+1,Agile Application Development
+2,Confluence
+3,Continuous Integration and Continuous Delivery (CI/CD)
+4,DevOps
+5,Jenkins
+6,Jira
+7,Scrum
+8,Back-End Web Development
+9,Code Review
+10,Communication
+11,Data Structures
+12,Design Review
+13,OE
+14,Programming
+15,Reliability
+16,Written Communication
+17,Project Management
+18,Analytical Skills
+19,Customer Retention
+20,Customer Value Proposition
+21,Data Analysis
+22,English
+23,Go-to-Market Strategy
+24,Product Marketing
+25,Strategic Partnerships
+26,Telecommunications
+27,Collaboration Tools
+28,Concept Development
+29,Creative Ideation
+30,Launches
+31,Product Innovation
+32,Product Launch
+33,Product Service
+34,Thinking Skills
+35,Visual Development
+36,Microsoft Office
+37,Sales
+38,Computer Science
+39,Integration Testing
+40,Portability
+41,Problem Solving
+42,Query Languages
+43,Dell Boomi
+44,OAuth
+45,Role-Based Access Control (RBAC)
+46,Security Assertion Markup Language (SAML)
+47,Unstructured Data
+48,Software Development
+49,Database Management System (DBMS)
+50,Financial Systems
+51,Microservices
+52,NoSQL
+53,System Performance
+54,SQL
+55,Customer Experience Management
+56,Data Analytics
+57,Databases
+58,Finance
+59,Marketing Strategy
+60,Pricing Strategy
+61,Tableau
+62,Telco Industry
+63,Interpersonal Skills
+64,Self-confidence
+65,Go (Programming Language)
+66,Object-oriented Languages
+67,Relational Databases
+68,Debugging
+69,Functional Testing
+70,Software Design
+71,Data Integration
+72,Query Writing
+73,TIBCO
+74,Application Development
+75,System Development
+76,Cascading Style Sheets (CSS)
+77,HTML5
+78,Performance Tuning
+79,Product Requirements
+80,REST APIs
+81,Search Engine Optimization (SEO)
+82,Vanilla
+83,Vanilla JavaScript
+84,Web Performance
+85,Java
+86,Amazon Web Services (AWS)
+87,MongoDB
+88,Terraform
+89,Chatbots
+90,Interpersonal Communication
+91,LOA
+92,Team Motivation
+93,Responsive Web Design
+94,User Experience (UX)
+95,User Interface Design
+96,Git
+97,Radio-Frequency Identification (RFID)
+98,Usability
+99,Business Case Preparation
+100,Business Transformation
+101,Complex Transactions
+102,Core Banking
+103,FSI
+104,IT Consulting
+105,Infrastructure as a Service (IaaS)
+106,Oil Pipeline Management
+107,Sales Pipeline Management
+108,Statutory Accounting Principles (SAP)
+109,Programming Languages
+110,Algorithms
+111,Computer Engineering
+112,Critical Thinking
+113,Kanban
+114,Microsoft Office Delve
+115,Web Technologies
+116,JavaScript
+117,JavaScript Frameworks
+118,Object-Oriented Programming (OOP)
+119,Application Monitoring
+120,Graphic Design Principles
+121,TypeScript
+122,Front-End Development
+123,React.js
+124,Web Applications
+125,Web Application Development
+126,API Management
+127,Amazon Relational Database Service (RDS)
+128,IT Strategy
+129,Strategic Thinking
+130,Web Development
+131,Creative Problem Solving
+132,High-Level Design
+133,Design Patterns
+134,Clean Coding
+135,PHP
+136,User Stories
+137,System Architecture
+138,Artificial Intelligence (AI)
+139,Community of Practice
+140,Developer Relations
+141,Google Cloud Platform (GCP)
+142,Google Technologies
+143,Large Volume
+144,Machine Learning
+145,Open-Source Software
+146,MySQL
+147,CyberSecurity
+148,Troubleshooting
+149,Angular
+150,Python (Programming Language)
+151,HTML
+152,Vue.js
+153,JSON
+154,Account Management
+155,Attention to Detail
+156,Handle Multiple Projects
+157,Negotiation
+158,Presentation Skills
+159,Presentations
+160,Program Management
+161,C#
+162,IT Development
+163,Business Development
+164,Cloud
+165,React Native
+166,Ruby
+167,Java Frameworks
+168,Hibernate
+169,Jakarta Persistence
+170,Model-View-Controller (MVC)
+171,Spring Boot
+172,Spring Framework
+173,Spring MVC
+174,ASP.NET
+175,Database Systems
+176,Doctrine (PHP)
+177,Bahasa Indonesia
+178,Business Understanding
+179,Data Management
+180,Data Modeling
+181,Data Quality
+182,Google BigQuery
+183,Accounting
+184,Big Four Accounting Firms
+185,Financial Analysis
+186,Financial Reporting
+187,International Financial Reporting Standards (IFRS)
+188,R2R
+189,Reporting
+190,Data Science
+191,Machine Learning Algorithms
+192,New Concepts
+193,Pattern Recognition
+194,Hypertext Transfer Protocol (HTTP)
+195,Dashboards
+196,Data Visualization
+197,R (Programming Language)
+198,Application Programming Interfaces (API)
+199,Business Analytics
+200,Business Process
+201,Service-Oriented Architecture (SOA)
+202,Stream Processing
+203,Healthcare
+204,RDBMS
+205,Bitbucket
+206,Mercurial
+207,Phabricator
+208,Optimization
+209,Knowledge Sharing
+210,Functionality
+211,Systems Design
+212,Technical Design
+213,Django
+214,Linux Development
+215,Coaching
+216,Employee Training
+217,Human Resources (HR)
+218,Instructional Design
+219,Organizational Development
+220,Talent Management
+221,Training
+222,Training Delivery
+223,Market Analysis
+224,Packaging Design
+225,Product Development
+226,Skill Development
+227,Executive Management
+228,Management
+229,Continuous Integration (CI)
+230,Software Engineering Practices
+231,E2E
+232,High Performance Computing (HPC)
+233,Oral Communication
+234,Performance Analysis
+235,Android
+236,Design Documents
+237,Postman API
+238,Software Testing
+239,Test Cases
+240,Test Planning
+241,Testing Tools
+242,iOS
+243,Agile Environment
+244,Banking
+245,Development Programs
+246,Management Development
+247,Business Requirements
+248,Coaching & Mentoring
+249,Technology Adoption
+250,Visual Basic for Applications (VBA)
+251,Visualization Software
+252,JavaScript Libraries
+253,Laravel
+254,PHP Frameworks
+255,Back-end Operations
+256,Framework Design
+257,Highcharts
+258,Redis
+259,Flask
+260,Organization Skills
+261,Emerald
+262,Financial Advisory
+263,Marketing
+264,Private Banking
+265,Relationship Development
+266,Company Secretarial Work
+267,Corporate Governance
+268,Legal Document Preparation
+269,Quality Assurance
+270,Risk Management
+271,Brand Development
+272,Chemical Engineering
+273,Customer Acquisition
+274,Industrial Engineering
+275,Leadership
+276,Strategy Execution
+277,Control Environment
+278,Fraud Prevention
+279,Internal Audits
+280,Operational Audits
+281,Risk Monitoring
+282,Demand Planning
+283,SAP Products
+284,Supply Chain Management
+285,Mobile Application Development
+286,Team Management
+287,Assessment
+288,Business Planning
+289,Engineering Management
+290,Performance Metrics
+291,Kotlin
+292,Forecasting
+293,Key Performance Indicators
+294,Market Share
+295,Return on Investment
+296,Bootstrap (Framework)
+297,Next.js
+298,Programming Concepts
+299,Engineering Drawings
+300,Mechanical
+301,Electrical
+302,and Plumbing (MEP)
+303,Strategic Sourcing
+304,ASP.NET Core
+305,ERP Software
+306,Enterprise Resource Planning (ERP)
+307,Infor Enterprise Resource Planning (ERP)
+308,Requirements Analysis
+309,Resource Planning
+310,SAP ERP
+311,Software Development Life Cycle (SDLC)
+312,Node.js
+313,Engineering Documentation
+314,Flow Charts
+315,Data Engineering
+316,Analytics
+317,Employee Relationships
+318,Statistics
+319,Resiliency
+320,Markup Languages
+321,Writing
+322,Commercial Software
+323,Yii
+324,Pandas (Software)
+325,Scikit-Learn
+326,ASEAN
+327,Business Applications
+328,C-Level
+329,C-Level Leadership
+330,Financial Management
+331,Iterative Methodologies
+332,Operational Excellence
+333,Process Design
+334,Cultural Diversity
+335,Foreign Relations
+336,Industrial Relations
+337,Intercultural Skills
+338,Military Doctrine
+339,Security Awareness
+340,Security Management
+341,Security Risk
+342,Technical Reviews
+343,Customer Engagement
+344,Defining Requirements
+345,Professional Skills
+346,Tech-Savvy
+347,Understand & Convey Complex Information
+348,Swift (Programming Language)
+349,Equipment Installation
+350,Handover
+351,Mechanical Engineering
+352,Data Privacy
+353,Data Protection Law
+354,Privacy Issues
+355,Interfaces
+356,Technical Discussions
+357,User Behavior
+358,iOS Development
+359,Full-Stack Development
+360,C++
+361,Software Implementation
+362,Cost Reduction
+363,Deal Structuring
+364,IT Sourcing
+365,Large Systems Integration
+366,Outsourcing
+367,Procurement
+368,SI
+369,Systems Integration
+370,Documentation
+371,Packaging Engineering
+372,Process Validation
+373,Constructive Feedback
+374,Timelines
+375,.NET Framework
+376,C (Programming Language)
+377,Procedural Programming
+378,C# in .NET
+379,Object Oriented Design
+380,Web Design
+381,Teamwork
+382,Adobe Photoshop
+383,Research Skills
+384,Electrical Engineering
+385,Engineering
+386,Product Quality
+387,Quality Control
+388,Training Programs
+389,Category Management
+390,Contract Negotiation
+391,Retail Category Management
+392,Technical Documentation
+393,WFO
+394,Digital Analysis
+395,Digital Marketing
+396,Knowledge Acquisition
+397,Market Research
+398,Performance Measurement
+399,Trend Analysis
+400,Android Testing
+401,Appium
+402,Automator
+403,Mockito
+404,Model-view-viewmodel (MVVM)
+405,Multithreading
+406,PowerMock
+407,Civil Engineering
+408,Contractual Agreements
+409,Infrastructure
+410,Hadoop
+411,Alibaba Cloud
+412,Chinese
+413,Cloud Computing
+414,Microsoft Azure
+415,Software as a Service (SaaS)
+416,Solution Architecture
+417,Solution Selling
+418,PostgreSQL
+419,3rd Party Integrations
+420,Apache Kafka
+421,Technical Requirements
+422,UI Testing
+423,Unit Testing
+424,.NET Core
+425,Digital Authentication
+426,Telerik
+427,Unified Modeling Language (UML)
+428,IT Management
+429,Information Technology
+430,Network Administration
+431,System Administration
+432,Operational Efficiency
+433,Technology Management
+434,Non-Functional Requirements
+435,Pattern
+436,Team Coordination
+437,Business Project Management
+438,E-Commerce
+439,Mandarin
+440,Marketing Campaign Management
+441,Generative AI
+442,Industrial Experience
+443,Natural Language Processing (NLP)
+444,Prompt Engineering
+445,Post-Sales
+446,Product Demonstration
+447,Product Evaluations
+448,Product Lifecycle Management
+449,Software Configuration Management
+450,FinTech
+451,Financial Technology
+452,Balance Sheets
+453,Client Presentation
+454,Persuasion
+455,Project Leadership
+456,Stakeholder Management
+457,Coding Standards
+458,Microsoft Excel
+459,Microsoft PowerPoint
+460,Distributed Architecture
+461,High Traffic
+462,Business Reviews
+463,Partner Development
+464,Fraud Detection
+465,Fraud Investigations
+466,Prevention
+467,Processes Development
+468,Standard Operating Procedure (SOP)
+469,Application Security
+470,Elastic Stack (ELK)
+471,Ethical Hacking
+472,Information Security
+473,Penetration Testing
+474,Security Information and Event Management (SIEM)
+475,Splunk
+476,Acceptance Testing
+477,Macros
+478,Procedural Documentation
+479,Process Automation
+480,Robotic Process Automation (RPA)
+481,Test Procedures
+482,UiPath
+483,Work Process Development
+484,Workflow Diagrams
+485,Knowledge Management
+486,Client Services
+487,Credit Control
+488,External Audits
+489,Leading Meetings
+490,Reinsurance
+491,Service-Level Agreements (SLA)
+492,Software Quality
+493,Software Quality Assurance
+494,Test Automation
+495,Test Engineering
+496,CISA
+497,Cyberark
+498,Cybersecurity
+499,ISO 27001
+500,IT Audit
+501,IT Security Policies & Procedures
+502,Security Audits
+503,Accruals
+504,Cost Accounting
+505,Fixed Assets
+506,General Ledgers
+507,Internal Controls
+508,Journal Entries (Accounting)
+509,Capital Projects
+510,Change Impact Analysis
+511,Construction Planning
+512,Construction Project Management
+513,Data Center Construction
+514,Procurement
+515,and Construction (EPC)
+516,Mitigation Strategies
+517,Oil and Gas
+518,Regional Planning
+519,Extract
+520,Transform
+521,Load (ETL)
+522,Geophysics
+523,Petroleum Engineering
+524,Detailed Design
+525,Linux
+526,Version Control
+527,Agile Leadership
+528,Certified Information Privacy Professional
+529,ABAP
+530,IDoc
+531,SAP FI
+532,SAP HANA
+533,SAP Implementation
+534,SAP Sales & Distribution
+535,Technical Specs
+536,Customer Relationship Management (CRM)
+537,Graphic Design
+538,Office Administration
+539,IT Service Management
+540,Pre-launch
+541,Product Management
+542,Product Strategy
+543,Code of Ethics
+544,Compliance Procedures
+545,Relevance
+546,Structured Thinking
+547,Technology Trends
+548,Cost Management
+549,Maintenance and Repair
+550,Management Review
+551,Operational Planning
+552,Groovy
+553,Kubernetes
+554,Linux System Administration
+555,SIT
+556,User Acceptance Testing
+557,Business Research
+558,Growth Strategies
+559,Invitation to Tender
+560,New Product Rollout
+561,Training and Development (HR)
+562,Customer Service
+563,Decision-Making
+564,Service Orientation (Social)
+565,Studio Management
+566,Jakarta EE
+567,Container Orchestration
+568,Java Development
+569,Product Adoption
+570,Research and Development (R&D)
+571,Struts
+572,Customer Satisfaction
+573,Human Resources Information Systems (HRIS)
+574,Payroll Administration
+575,Team Leadership
+576,NestJS
+577,Server Side
+578,TypeORM
+579,Computer-Aided Design (CAD)
+580,Query Optimization
+581,Soft Skills
+582,Technical Support
+583,Trusting Relationships
+584,ASP.NET MVC
+585,XML
+586,Abstracting
+587,Circuit Analysis
+588,Customer Requirements
+589,Thickening
+590,COBOL
+591,Complaint Management
+592,Daily Reports
+593,Focus Groups
+594,Insurance Industry
+595,Wealth Management Services
+596,Code Design
+597,Data Architecture
+598,ERD
+599,Normalization
+600,Audio Mastering
+601,Footwear
+602,Manufacturing Processes
+603,Material Properties
+604,Product Engineering
+605,Technical Drawing
+606,Workload Prioritization
+607,CodeIgniter
+608,Stack
+609,Business-to-Business (B2B)
+610,Cross-Selling
+611,Portfolio Analysis
+612,Turnover
+613,User Manager
+614,Wood
+615,Woodworking
+616,Design Thinking
+617,Architectural Patterns
+618,Software Architecture
+619,Funds Management
+620,Interpersonal Relationships
+621,Performance Motivation
+622,Sales Management
+623,Business
+624,Operating Systems
+625,Advising Clients
+626,Customer-Focused Selling
+627,Digital Transformation
+628,Multi-disciplinary Teams
+629,Optimising
+630,Strategy Consulting
+631,Due Diligence
+632,Financial Sponsors
+633,Industry Research
+634,Investment Banking
+635,Mergers & Acquisitions (M&A)
+636,Enterprise Solution Design
+637,Microsoft Platform
+638,Communication Protocols
+639,Elasticsearch
+640,Kibana
+641,Layer 2
+642,Layer 3
+643,Network Protocols
+644,Subnetting
+645,VLAN
+646,Interviewing
+647,Onboarding
+648,Recruiting
+649,Advertising Campaigns
+650,Digital Media
+651,Media Agencies
+652,Agile Software Development
+653,Conflict Resolution
+654,Continuous Improvement
+655,Facilitation
+656,Lean Principles
+657,Lean Processes
+658,Retrospectives
+659,Sprint Planning
+660,Customer Experience
+661,Live Production
+662,Budget Control
+663,Cash Flow
+664,Cost Control
+665,Cost Reporting
+666,Planning Budgeting & Forecasting
+667,Project Cost
+668,Social Media
+669,JSON Web Token (JWT)
+670,Jest
+671,RESTful WebServices
+672,Abatement
+673,Business Strategy
+674,Consumer Products
+675,Supplier Engagement
+676,Sustainable Procurement
+677,Thought Leadership
+678,Transparency
+679,Building Maintenance
+680,Architecture
+681,Infrastructure Technologies
+682,Project Delivery
+683,Technical Architecture
+684,Progressive Web Applications (PWAs)
+685,Computer Graphics
+686,3D Graphics
+687,Graphics Software
+688,OpenGL
+689,OpenGL ES
+690,Specifications
+691,Client Relations
+692,Parallel Computing
+693,Easily Adaptable
+694,Software Troubleshooting
+695,System Deployment
+696,Technological Innovation
+697,XPath
+698,Digital Technology
+699,Scenario
+700,Spoken English
+701,System Requirements
+702,Administration
+703,Workforce Optimization (WFO)
+704,Software Design Patterns
+705,API Documentation
+706,Architectural Design
+707,Customer Satisfaction (CSAT)
+708,Post-Sales Support
+709,Technical Accounting
+710,Technical Solution Design
+711,Constructability
+712,Control Systems Design
+713,Cooperation
+714,ERS
+715,On Site
+716,Power Plants
+717,Project Commissioning
+718,RCA
+719,Tutorials
+720,Front-end Coding
+721,Cross-functional Team Leadership
+722,Deep Learning
+723,Predictive Analytics
+724,Statistical Data Analysis
+725,Core Java
+726,A/B Testing
+727,Growth Hacking
+728,Growth Marketing
+729,Marketing Analytics
+730,Marketing Campaigns
+731,Bug Tracking
+732,Dependency Management
+733,Evidence
+734,Investigation
+735,Building Performance
+736,Content Analysis
+737,KOL
+738,KOL Management
+739,Key Opinion Leaders
+740,Public Access
+741,Public Relations
+742,Team Building
+743,Data Governance
+744,Data Migration
+745,Data Models
+746,Enterprise Data
+747,Oracle Meter Data Management (MDM)
+748,Advertising Sales
+749,Brand Building
+750,Brand Marketing
+751,Sales Marketing
+752,Sales and Marketing
+753,Presales
+754,Software Sales
+755,Telco
+756,Information Architecture
+757,UX Research
+758,Product Design
+759,Risk Based Pricing
+760,Wireframing
+761,Commercial Banking
+762,Wholesale Banking
+763,Enablement
+764,iOS Design
+765,B2B Marketing
+766,Event Management
+767,Field Marketing
+768,Marketing Automation
+769,Storytelling
+770,Startups
+771,Flutter
+772,SDKs
+773,Xcode
+774,Financial Institutions
+775,IT Project & Program Management
+776,PDLC
+777,Project Managers
+778,Systems Analysis
+779,Technical Analysis
+780,Mathematics
+781,Employee Engagement
+782,Employee Relations
+783,HR Policies
+784,Human Capital Management
+785,Labor and Employment Law
+786,Talent Planning
+787,Workforce Planning
+788,As-Built Drawings
+789,Production Engineering
+790,Production Planning
+791,Ansible
+792,Cloud Applications
+793,Docker Products
+794,IT Infrastructure Management
+795,Load Balancing
+796,Convolutional Neural Networks (CNN)
+797,Photography
+798,Videography
+799,Food Science
+800,Food Technology
+801,Commerce
+802,Deal Execution
+803,New Hires
+804,Professional Development Programs
+805,Readiness
+806,Summit
+807,Credit Monitoring
+808,Disbursements
+809,Quality Reviews
+810,Regulatory Reporting
+811,Maximo
+812,Booking Systems
+813,Client Requirements
+814,Code of Conduct
+815,Licensing
+816,Securities
+817,Database Administration
+818,Redux.js
+819,Ant Design
+820,Single Page Applications
+821,Airflow
+822,Apache Spark
+823,Data Pipelines
+824,Data Validation
+825,Scala
+826,Deal Closure
+827,Digital Strategy
+828,Sales Execution
+829,Services Sales
+830,AutoCAD
+831,Forest Management
+832,Project Control
+833,Site Inspections
+834,SketchUp
+835,Surveying
+836,Sustainable Forest Management
+837,Consulting
+838,Web Architecture
+839,Cypress
+840,Enterprise Software
+841,Requirements Gathering
+842,System Monitoring
+843,UI Automation
+844,User Groups
+845,Time Management
+846,Keyword Research
+847,Android Development
+848,Mobile Applications
+849,Aquaculture
+850,Mining Engineering
+851,S2
+852,Data Preparation
+853,Google Workspace
+854,Occupational Health
+855,Regulatory Affairs
+856,Regulatory Compliance
+857,Skilled Multi-tasker
+858,Data-Driven Insights
+859,Google Sheets
+860,Blockchain
+861,Systems Programming
+862,Architecture Reviews
+863,Project Implementation
+864,Project Plans
+865,Cloud-Native Architecture
+866,Office 365
+867,Public Cloud
+868,VMware
+869,Growth Initiatives
+870,Information and Communications Technology (ICT)
+871,Strategic Business
+872,Desktop Computers
+873,Mobile Internet
+874,RFCs
+875,Cloud Infrastructure
+876,Cloud Migration
+877,Cloud-Native Applications
+878,Hybrid Cloud
+879,Windows OS Configuration
+880,Azure Data Factory
+881,Big Data
+882,Data Ingestion
+883,ETL Tools
+884,Google Cloud Dataflow
+885,Project Teams
+886,Low-Level Design
+887,Comminution
+888,Metallurgy
+889,Mineral Crushing
+890,Mineral Processing
+891,Benchmarking
+892,IT Controls
+893,ITGC
+894,Operations Management
+895,Business Continuity
+896,Business Continuity Planning
+897,Enterprise Risk
+898,Enterprise Risk Management
+899,Incident Management
+900,Operational Risk Management
+901,Risk Assessment
+902,Risk Registers
+903,Agile Project Management
+904,Business Logic
+905,Technical Translation
+906,Intellectual
+907,Principles of Finance
+908,Anti-Money Laundering
+909,Compliance Monitoring
+910,Corrective and Preventive Action (CAPA)
+911,Legal Compliance
+912,Statutory Compliances
+913,Supplier Audits
+914,Supplier Management
+915,Brand Protection
+916,Business Integrity
+917,Corporate Security
+918,IT Security Assessments
+919,Incident Reporting
+920,Investigative Research
+921,Personal Responsibility
+922,Refurbishments
+923,Security
+924,Cyber-security
+925,IT Risk Management
+926,Object-Relational Mapping (ORM)
+927,Process Review
+928,Data Mining
+929,Problem Analysis
+930,Quality Assurance Testing
+931,Regression Testing
+932,Test Strategy
+933,Amazon Redshift
+934,Digital Sales
+935,Influencer Marketing
+936,Malay
+937,2D CAD Drawing
+938,3D Computer Aided Design (3D CAD)
+939,3D Modeling
+940,Channel Partners
+941,Banquets
+942,F&B Management
+943,Food and Beverage Operations
+944,P&L Management
+945,Restaurant Operations
+946,Stock Control
+947,Deadline Oriented
+948,Relationship Building
+949,Bar
+950,Budgeting
+951,Cleansing
+952,Operations
+953,Wine
+954,SAP Controlling (CO)
+955,SAP FICO
+956,SAP S/4HANA
+957,Memcached
+958,Scalable Web Applications
+959,Search Engines
+960,Domain Name System (DNS)
+961,Iperf
+962,L2TP
+963,Network Troubleshooting
+964,Tcpdump
+965,Wireshark
+966,Business Systems
+967,Environmental Impact Assessment (EIA)
+968,Process Flow Diagrams
+969,Project Planning
+970,W3C Standards
+971,Business Communications
+972,Contract Management
+973,Contractual
+974,Cost Engineering
+975,Dispute Resolution
+976,Pricing Negotiations
+977,Request for Proposal (RFP)
+978,jQuery
+979,Stored Procedures
+980,ISO 31000
+981,Proactive Monitoring
+982,Project Risk
+983,Quantitative Risk
+984,Well Completion
+985,Logics
+986,Service Assurance
+987,High-Pressure Situations
+988,Pressure Situations
+989,Resource Allocation
+990,Design
+991,Exhibit Design
+992,Strategic Planning
+993,Visual Merchandising
+994,Unix
+995,Bash
+996,Investing
+997,Investment Management
+998,Investments
+999,Portfolio Management
+1000,Private Wealth Management
+1001,Stock Management
+1002,German
+1003,Distribution Channel Management
+1004,Persistence
+1005,Reporting & Analysis
+1006,Cascading
+1007,Style Sheets
+1008,D3.js
+1009,Visual Basic .NET (VB.NET)
+1010,Bioinformatics
+1011,Computer Programming
+1012,Gender Mainstreaming
+1013,Security Implementation
+1014,Semantic Markup
+1015,Mass Recruitment
+1016,Psychology
+1017,Ecosystem Management
+1018,Educational Technology
+1019,Executive Relationships
+1020,Market Planning
+1021,Public Sector
+1022,Sales Processes
+1023,Technical Sales
+1024,Technology Sales
+1025,Flow Diagrams
+1026,Logical Reasoning
+1027,Reasoning Skills
+1028,Untangle
+1029,Elixir
+1030,GraphQL
+1031,Representational State Transfer (REST)
+1032,Express.js
+1033,Agile & Waterfall Methodologies
+1034,Swagger API
+1035,Laboratory Medicine
+1036,User Training
+1037,Work Breakdown Structure (WBS)
+1038,Data Manipulation
+1039,Resolving Issues
+1040,Web Framework
+1041,User Requirements
+1042,WordPress
+1043,Wordpress Development
+1044,Boot Camp
+1045,Job Skills
+1046,Excel
+1047,Infrastructure Solutions
+1048,RabbitMQ
+1049,WebSocket
+1050,Analytical Solutions
+1051,Conceptual Ability
+1052,Database Design
+1053,Message Queue
+1054,Articulate 360
+1055,Cameras
+1056,Content Delivery
+1057,Multimedia
+1058,BAU
+1059,Multitasking
+1060,Statistical Modeling
+1061,Data Collection
+1062,Key Metrics
+1063,Presentation Preparation
+1064,Social Media Analysis
+1065,SASS
+1066,Beverage Industry
+1067,Cocktails
+1068,MICROS
+1069,Menu Development
+1070,Recipe Development
+1071,Tailwind CSS
+1072,Spreadsheets
+1073,Visualization
+1074,Microsoft SQL Server
+1075,GitHub
+1076,Odoo
+1077,Liferay
+1078,Compliance Reporting
+1079,ICT Security
+1080,Security Compliance
+1081,Vulnerability Assessment
+1082,AngularJS
+1083,Modeling and Simulation
+1084,SQL Database Administration
+1085,Functional Requirements
+1086,Mockups
+1087,Web Pages
+1088,Laboratory Skills
+1089,Auditing
+1090,Information Systems
+1091,Technology Advisory
+1092,Project Coordination
+1093,Project Documentation
+1094,Back Office Operations
+1095,Forestry
+1096,Front Office Development
+1097,Ruby on Rails
+1098,Model-View-Presenter (MVP)
+1099,Networking
+1100,IT Hardware Support
+1101,IT Operations
+1102,Laptops
+1103,Printers
+1104,PL/SQL
+1105,Good Clinical Practice (GCP)
+1106,Android Design
+1107,Android Studio
+1108,Teaching Kindergarten School
+1109,Arduino
+1110,Teaching
+1111,UX Design
+1112,Clojure
+1113,Computer Hardware
+1114,ITIL
+1115,Windows 7
+1116,Functional Specifications
+1117,SAP Consulting
+1118,SAP Solutions
+1119,System Testing
+1120,Linux Server
+1121,Computer Repair
+1122,Help Desk Support
+1123,Software Installation
+1124,Root Cause Analysis
+1125,Test Design
+1126,CI
+1127,Manual Testing
+1128,Performance Testing
+1129,QA Engineering
+1130,Service Integration
+1131,Scenario Testing
+1132,Wazuh
+1133,Google Webmaster Tools
+1134,Link Building
+1135,Mentoring
+1136,Off-Page SEO
+1137,Social Media Optimization (SMO)
+1138,Web Analytics
+1139,Social Media Marketing
+1140,Document Object Model (DOM)
+1141,Image Editing
+1142,JavaScript Object Model (JSOM)
+1143,Berkeley Software Distribution (BSD)
+1144,Project Management Office (PMO)
+1145,Sustainable Finance
+1146,Fast Track
+1147,Job Training
+1148,Programmes
+1149,Game Design
+1150,Game Development
+1151,Game Mechanics
+1152,Nintendo Switch
+1153,Xbox
+1154,Xbox One
+1155,Change Requests
+1156,Command
+1157,SQL Server Reporting Services (SSRS)
+1158,Subject Matter Experts
+1159,Certification Testing
+1160,IT Project Management
+1161,Coding
+1162,Application Support
+1163,ITIL Certified
+1164,Network Engineering
+1165,API Development
+1166,Data Processing
+1167,Possess strong analytical
+1168,MLflow
+1169,XGBoost
+1170,Symfony Framework
+1171,WHMCS
+1172,Airline Ticketing
+1173,Emerging Trends
+1174,Event Ticketing
+1175,Knowledge Base
+1176,Network Implementation
+1177,Ticketing Systems
+1178,Technical Writing
+1179,Waterfall Project Management
+1180,Gulp.js
+1181,Lending
+1182,Common Sense
+1183,Data Integrity
+1184,Project Management Software
+1185,Bridging
+1186,Curriculum Development
+1187,Learning Design
+1188,Learning Management Systems
+1189,4G
+1190,Competitive Analysis
+1191,Pre-Sales Support
+1192,Sales Presentations
+1193,Wireless Engineering
+1194,Broadcasting
+1195,Fault Tolerance
+1196,Industry standards
+1197,Live Streaming
+1198,Strategy Formulation
+1199,Database Triggers
+1200,Technology Implementation
+1201,Business Analysis
+1202,Project Governance
+1203,Risk Analysis
+1204,Aviation
+1205,Project Oversight
+1206,Strategic Initiatives
+1207,Tourism
+1208,Test Execution
+1209,Tracking Systems
+1210,Budget Monitoring
+1211,Financial Statements
+1212,Project Reviews
+1213,Media Monitoring
+1214,Budgeting & Forecasting
+1215,Compensation
+1216,Cost Drivers
+1217,Cocoa
+1218,Target Orientation
+1219,Case Studies
+1220,External Communications
+1221,Business Networking
+1222,Deals
+1223,Manage Complex Projects
+1224,Oracle Financials
+1225,Screens
+1226,Quality Management
+1227,Manage client expectations
+1228,Resource Management
+1229,Voltage
+1230,Workshops
+1231,Product Knowledge
+1232,Medical Physics
+1233,Physics
+1234,Wiring Diagrams
+1235,X-ray
+1236,Microsoft Power BI
+1237,Note Taking
+1238,Secondary Research
+1239,User Interviews
+1240,Data Center Operations
+1241,Data Centers
+1242,Root Cause
+1243,Scripting
+1244,Shell Scripting
+1245,LangChain
+1246,Large Language Models (LLM)
+1247,Max
+1248,Keras
+1249,TensorFlow
+1250,PyTorch
+1251,Computer Vision
+1252,Image Processing
+1253,Business Insights
+1254,Strategic Consulting
+1255,Actuarial Science
+1256,General Insurance
+1257,Product Specification
+1258,Collaborative Problem Solving
+1259,Requirements Engineering
+1260,Mathematics Education
+1261,Teacher Training
+1262,Diagram Design
+1263,Raspberry Pi
+1264,Robot Programming
+1265,Software Project Management
+1266,Gitlab
+1267,Charles Proxy
+1268,Proxy Server
+1269,Test Methodologies
+1270,Configuration Management
+1271,Control Systems
+1272,High Availability (HA)
+1273,Incident Response
+1274,Performance Engineering
+1275,System Configuration
+1276,Automation
+1277,TestNG
+1278,Budget Proposals
+1279,Delegation
+1280,Technically Competent
+1281,Vendor Contracts
+1282,Hindi
+1283,Tagalog
+1284,Business Intelligence (BI)
+1285,Embedded Systems
+1286,Mac
+1287,Support Documentation
+1288,Dagger (Software)
+1289,IBM SPSS
+1290,MATLAB
+1291,SAS (Software)
+1292,Technology Consulting
+1293,Credit Risk Management
+1294,Predictive Modeling
+1295,Regulatory Requirements
+1296,Statistical Analysis
+1297,Non-functional Testing
+1298,Team Alignment
+1299,High Availability Clustering
+1300,Business Consulting
+1301,Client Delivery
+1302,Economics
+1303,Management Consulting
+1304,Technology Risk
+1305,HR Strategy
+1306,Labor Relations
+1307,Organizational Psychology
+1308,Succession Planning
+1309,Security Protocols
+1310, Cascading Style Sheets (CSS)
+1311, Front-End Development
+1312, JavaScript
+1313, Node.js
+1314, React Native
+1315,Delivery Performance
+1316,Service Levels
+1317,Technical Operations
+1318,Vendor Management
+1319,Vendor Relations
+1320,Google Web Toolkit (GWT)
+1321,JavaServer Faces (JSF)
+1322,OOAD
+1323,Wicket
+1324,AJAX
+1325,Intrusion Detection
+1326,OWASP
+1327,Security Controls
+1328,Security Monitoring
+1329,Breakdown
+1330,Building Organizational Capability
+1331,Corrective Actions
+1332,Analytical Capability
+1333,Internet Banking
+1334,Shell
+1335,Hands-on Technical Leadership
+1336,Infrastructure Management
+1337,Technical Leadership
+1338,Technology Leadership
+1339,Lubricants
+1340,Sales Operations
+1341,Usability Testing
+1342,Figma (Software)
+1343,User Research
+1344,User-centered Design
+1345,Visual Design
+1346,Matplotlib
+1347,NumPy
+1348,Seaborn
+1349,Administrative Assistance
+1350,Data Entry
+1351,Online Data Entry
+1352,SpreadSheets
+1353,Typing
+1354,REST API
+1355,Core Data
+1356,Firebase
+1357,Information Management
+1358,Technology Governance
+1359,Application Management
+1360,Disaster Recovery
+1361,OCI
+1362,Oracle Application Development Framework (ADF)
+1363,Oracle Database
+1364,Consultations
+1365,Forensic Analysis
+1366,Vulnerability Management
+1367,Analyitical Skills
+1368,Design of Experiments (DOE)
+1369,Account Reconciliation
+1370,Communication Training
+1371,Order Processing
+1372,Transactional Systems
+1373,Career Counseling
+1374,Internal and External Communications
+1375,Manufacturing Process Improvement
+1376,Purchasing
+1377,MariaDB
+1378,Cosmetic Formulation
+1379,Queuing
+1380,Prototyping
+1381,Service Design
+1382,Optimization Techniques
+1383,Statistical Modelling
+1384,Unsupervised Learning
+1385,Adaptive Design
+1386,Business Process Improvement
+1387,IT Recruitment
+1388,Recruitment Advertising
+1389,Screening Resumes
+1390,Sourcing
+1391,Technical Recruiting
+1392,Google Drive
+1393,Online Moderation
+1394,Supporting Others
+1395,Zoom
+1396,Amazon EC2
+1397,Powershell
+1398,Web Services
+1399,API Testing
+1400,Statistical Inference
+1401,Software Coding
+1402,Jupyter
+1403,Campaign Analytics
+1404,Campaign Strategies
+1405,Campaigns
+1406,Clarity
+1407,Product Research
+1408,Research Methods
+1409,Electronic Circuit Design
+1410,Internet of Things (IoT)
+1411,Containerization
+1412,HiveQL
+1413,gRPC
+1414,Objective-C
+1415,Network Security
+1416,Beauty Photography
+1417,Brand Identity
+1418,Passionate about Work
+1419,Mobile Games
+1420,Global Thinker
+1421,Sitecore
+1422,Adobe Creative Suite
+1423,Branding
+1424,Creative Direction
+1425,Creative Strategy
+1426,Fundamentals
+1427,Graphics
+1428,Music Composition
+1429,Solid Professional Standards
+1430,Typography
+1431,Capital Expenditures
+1432,Mental Health
+1433,Human Nature
+1434,Invoicing
+1435,Job Fairs
+1436,Phone Manner
+1437,Social Networking
+1438,Design Specifications
+1439,Webflow
+1440,Software Engineering
+1441,AWS
+1442,Crashlytics
+1443,Software Engineers
+1444,Online Content
+1445,Intrapersonal Skills
+1446,Flux
+1447,Stakeholder Engagement
+1448,Technical Direction
+1449,Technical Communication
+1450,Tenacious Work Ethic
+1451,Bookings
+1452,Microsoft Outlook
+1453,Cryptocurrency
+1454,Cryptography
+1455,Ethereum
+1456,Hyperledger
+1457,Instructional Videos
+1458,Amdocs CRM
+1459,IT Accessibility
+1460,Team Problem Solving
+1461,E-commerce Optimization
+1462,Online Advertising
+1463,Online Marketing
+1464,Strategy to Execution
+1465,CSS
+1466,Channel Account Management
+1467,Gross Profit Analysis
+1468,Transport Layer Security (TLS)
+1469,Cyber Security Risk
+1470,Financial Audits
+1471,Geotechnical Engineering
+1472,Microsoft Surface
+1473,Mining
+1474,Oil and Gas Drilling
+1475,Rock Mechanics
+1476,Rock Music
+1477,Subsidence
+1478,TDR
+1479,Endurance
+1480,High Quality Standards
+1481,Child Development
+1482,Classroom Management
+1483,Early Childhood Development
+1484,Early Childhood Education
+1485,Working with Children
+1486,Version Control Tools
+1487,Concept Generation
+1488,Interactive Web
+1489,Adobe Lightroom
+1490,Annotation
+1491,Frame
+1492,Labels
+1493,Tags
+1494,Product Analysis
+1495,Barista Training
+1496,Cash Handling
+1497,Cashiering
+1498,Coffee
+1499,Food Service
+1500,Hospitality Industry
+1501,Making Coffee
+1502,Jakarta Messaging API
+1503,Java Database Connectivity (JDBC)
+1504,JavaServer Pages (JSP)
+1505,Spring Integration
+1506,Graphic Animation
+1507,Jade
+1508,PugJS
+1509,Springboot
+1510,Database
+1511,Website Management
+1512,Swift
+1513,Sequelize
+1514,CSS3
+1515,TailwindCSS
+1516,Web Socket Api
+1517,ReactJs XML
+1518,JSON
+1519,Web Socket
+1520,Quality System
+1521,Government Regulations
+1522,KYC Verification
+1523,Regulatory Risk
+1524,Resolutions
+1525,Streamlining Complex Work Processes
+1526,Hotmail
+1527,Windows Live
+1528,Technology Architecture
+1529,Cloud Security
+1530,Google Kubernetes Engine (GKE)
+1531,Proof of Concept
+1532,Storage Area Network (SAN)
+1533,Virtual Private Network (VPN)
+1534,UIKit
+1535,Presales Technical Support
+1536,Technical Presales
+1537,Advertising
+1538,Content Creation
+1539,Editing
+1540,Streams
+1541,Video Editing
+1542,Voice Acting
+1543,YouTube
+1544,Vulnerability
+1545,Shopify
+1546,Capacity Planning
+1547,Copyright Law
+1548,Intellectual Property
+1549,Intellectual Property Law
+1550,Patent Prosecution
+1551,Patentability
+1552,Property Rights
+1553,Scalability
+1554,Human Computer Interaction
+1555,Sketch App
+1556,User Experience Design (UED)
+1557,Meeting Scheduling
+1558,Task Analysis
+1559,Lua
+1560,CompTIA
+1561,Cybersecurity Tools
+1562,Security Policy
+1563,ERP Implementations
+1564,NetSuite
+1565,Oracle Certification Program (OCP)
+1566,Oracle Enterprise Resource Planning (ERP) Cloud
+1567,Executive Administrative Assistance
+1568,Emerging Technologies
+1569,Computer Literacy
+1570,Coordination Skills
+1571,Design Tools
+1572,Human Capital
+1573,Academic Background
+1574,Law
+1575,Software Solutions
+1576,Management Accounting
+1577,Working Experience
+1578,Compensation & Benefits
+1579,Employee Benefits
+1580,HR Management
+1581,Organizational Effectiveness
+1582,Performance Management
+1583,Ad Serving
+1584,Quantitative Analytics
+1585,Data-driven Marketing
+1586,Media Strategy
+1587,Numeracy
+1588,Search Engine Marketing (SEM)
+1589,Pilot Projects
+1590,Profitability Improvement
+1591,Anti-corruption
+1592,Consultation
+1593,Legal Advice
+1594,Legal Matters
+1595,ClickUp
+1596,End-to-end Testing
+1597,Technical Product Management
+1598,Certified Information Security Manager (CISM)
+1599,Data Security
+1600,Information Security Standards
+1601,External Relationships
+1602,Grant Research
+1603,Multi-country
+1604,Microsoft Project
+1605,PRINCE2
+1606,Cluster Analysis
+1607,Modeling
+1608,Pricing Analysis
+1609,IT Projects
+1610,Purchase Orders
+1611,RFx
+1612,SRM
+1613,Consultative Selling
+1614,Customer Support
+1615,Demos
+1616,Microsoft Solutions
+1617,Data Warehousing
+1618,Attitude Change
+1619,Sales Acumen
+1620,Sales Engineering
+1621,Show Calling
+1622,Figma
+1623,Customer Data
+1624,Occupational Safety
+1625,DevSecOps
+1626,GitOps
+1627,Secure SDLC
+1628,Security Operations
+1629,Activations
+1630,Brand Activation
+1631,Internet Protocol (IP)
+1632,Internet Protocol Suite (TCP/IP)
+1633,OSI Model
+1634,Software Audits
+1635,Transmission Control Protocol (TCP)
+1636,Azure Databricks
+1637,Insurance
+1638,Windows
+1639,Windows Server
+1640,Business Growth
+1641,Channel Business
+1642,Sales Target Management
+1643,Team Development
+1644,IT Governance
+1645,IT Security Best Practices
+1646,IT Security Operations
+1647,IT Security Policies
+1648,Security Incident & Event Management
+1649,Web Application Firewalls
+1650,Environmental Issues
+1651,IT Business Analysis
+1652,Concurrent Programming
+1653,Digital Assets
+1654,Microsoft Products
+1655,Customer-Focused Service
+1656,Operating Models
+1657,X86
+1658,Data Acquisition
+1659,Data Cleaning
+1660,Scrapy Framework
+1661,Good Manufacturing Practice (GMP)
+1662,Mobile Banking
+1663,Flights
+1664,Helicopter View
+1665,Certified Public Accounting
+1666,Chartered Financial Analyst
+1667,Benefits Management
+1668,Compensation Structures
+1669,Incentive Programs
+1670,Partnerships
+1671,Strategy
+1672,Azure Data Lake
+1673,Data Warehouse Architecture
+1674,CIPM
+1675,Business Relationship Management
+1676,Competitive Differentiation
+1677,Dementia Care
+1678,Financial Metrics
+1679,Home Care
+1680,Interpreting Data
+1681,Kantar
+1682,Nielsen Data
+1683,Promo
+1684,Service Provider Interface (SPI)
+1685,Software Analysis
+1686,Cyber Threat Hunting (CTH)
+1687,Hacking
+1688,Responsiveness
+1689,Android SDK
+1690,Entrepreneurship
+1691,Legal Writing
+1692,Asset Planning
+1693,Energy Audits
+1694,Energy Efficiency
+1695,Energy Management
+1696,Process Auditing
+1697,Project Design
+1698,Robotics
+1699,Lego Education
+1700,Collaboration
+1701,Business Management
+1702,Digital Trends
+1703,Internet Companies
+1704,Petrochemicals
+1705,Polymerization
+1706,Technical Services
+1707,Control Panel
+1708,Monitor Engineering
+1709,Switchgear
+1710,UI/UX
+1711,Bartending
+1712,Cooking
+1713,Hiring
+1714,Email
+1715,Spam Filtering
+1716,DWH
+1717,Augmented Reality (AR)
+1718,Unity
+1719,Virtual Reality (VR)
+1720,Virtual Reality Development
+1721,Big Data Analytics
+1722,Change Data Capture
+1723,Automation Anywhere
+1724,Microsoft Power Automate
+1725,PHP Applications
+1726,OLAP
+1727,Cyber
+1728,Proposal Preparation
+1729,Security Architecture Design
+1730,Security Consulting
+1731,Special Investigations
+1732,Payment Gateway
+1733,Laravel
+1734,PHP
+1735,MongoDB
+1736,Service Activation
+1737,Business Process Management
+1738,Decisiveness
+1739,Calendars
+1740,Initiation
+1741,Target Driven
+1742,Validation Protocol
+1743,Skills
+1744,Conflict Of Interest
+1745,Civil Society
+1746,Public Finance
+1747,Grammar
+1748,Localization
+1749,Proofreading
+1750,Translation
+1751,Video Games
+1752,Implementation Plans
+1753,Adobe Experience Manager (AEM)
+1754,Forms
+1755,SQL Server Integration Services (SSIS)
+1756,Test Scripts
+1757,Cloud Development
+1758,Cloud Management
+1759,Database Tools
+1760,Animal Husbandry
+1761,Agriculture
+1762,On the Job Training
+1763,Strategy Building
+1764,Venture Capital
+1765,Critical Infrastructure
+1766,HVAC
+1767,Uptime
+1768,Content Planning
+1769,Email Marketing
+1770,Technical Proficiency
+1771,Computer Maintenance
+1772,Business Acumen
+1773,Financial Risk Management
+1774,Service Quality
+1775,Business Ownership
+1776,GitFlow
+1777,Blender
+1778,Ethernet
+1779,Local Area Network (LAN)
+1780,Routers
+1781,Sociability
+1782,WLAN
+1783,Demonstration
+1784,Stressful Situations
+1785,Content Design
+1786,Web Hosting
+1787,Database Queries
+1788,Electronic Trading Systems
+1789,Low Latency Trading
+1790,Jasper
+1791,Maven
+1792,Tomcat
+1793,General Management
+1794,Hospitality Management
+1795,Hospitality Service
+1796,Hotel Financing
+1797,Hotel Management
+1798,Opening Hotels
+1799,Pre-opening
+1800,Theme Parks
+1801,Account Servicing
+1802,Key Account Development
+1803,Key Accounts
+1804,Technical Specialists
+1805,White Papers
+1806,Competitive Pricing
+1807,Web Components
+1808,Packaging Machinery
+1809,Programmable Logic Controller (PLC)
+1810,Farms
+1811,Good Laboratory Practice (GLP)
+1812,Experienced Sales Professional
+1813,Firewalls
+1814,Information Technology Infrastructure
+1815,Network Switches
+1816,Audit Management
+1817,Audit Reports
+1818,Operational Control
+1819,Customer Acceptance
+1820,Datasets
+1821,Robot Operating System (ROS)
+1822,SLAM
+1823,Copywriting
+1824,Instructional Manuals
+1825,Manuals
+1826,Online Help
+1827,Procedural
+1828,Technical Writers
+1829,User Documentation
+1830,Front Office Operations
+1831,Phone Etiquette
+1832,Receptionist Duties
+1833,Agile Methodologies
+1834,Axure RP
+1835,Cross-team Collaboration
+1836,Software
+1837,Software Product Management
+1838,XMind
+1839,Econometrics
+1840,Software Updates
+1841,Carrier Ethernet
+1842,DWDM
+1843,Multiprotocol Label Switching (MPLS)
+1844,Packet Switching
+1845,Technical Presentations
+1846,Puppet (Software)
+1847,YAML
+1848,Airline Management
+1849,Maintenance Planning
+1850,Systems Engineering
+1851,Accounting Standards
+1852,Fast-Moving Consumer Goods (FMCG)
+1853,Financial Accounting
+1854,International Accounting Standards

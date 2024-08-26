@@ -1,0 +1,97 @@
+multiple_negatives
+does not use sample negatives
+learning_rate=2e-5
+epochs = 7
+results=almost like base model but scores are higher than average
+
+contrastive_loss
+use sample negatives
+learning_rate=1e-5
+epochs=5
+results=very overfit, extremely high scores
+
+multiple_negatives_2
+use sample negatives
+learning_rate=1e-5
+epochs=10
+results=overfit, not as bad as contrastive loss
+
+multiple_negatives_3
+does not use sample negatives
+learning_rate=2e-5
+epochs = 10
+results=same as multiple_negatives
+
+multiple_negatives_4
+does not use sample negatives
+learning_rate=2e-5
+epochs = 15
+results=same as multiple_negatives
+
+multiple_negatives_5
+does not use sample negatives
+learning_rate=2e-5
+epochs = 3
+results=same as multiple_negatives
+
+multiple_negatives_6
+use sample negatives
+learning_rate=1e-5
+epochs=3
+results=overfit
+
+multiple_negatives_7
+use sample negatives
+learning_rate=2e-5
+epochs=3
+weight_decay=1e-4
+results=overfit
+
+multiple_negatives_8
+does not use sample negatives
+learning_rate=2e-5
+epochs = 3
+weight_decay=1e-4
+results=same as multiple_negatives
+
+multiple_negatives_9
+does not use sample negatives
+learning_rate=2e-5
+epochs = 3
+weight_decay=1e-2
+results=same as multiple_negatives
+
+multiple_negatives_10 (best)
+does not use sample negatives
+learning_rate=2e-6
+epochs = 3
+weight_decay=2e-2
+results=same as multiple_negatives but better
+
+multiple_negatives_11 (best)
+does not use sample negatives
+learning_rate=2e-6
+epochs = 3
+weight_decay=3e-2
+results=same as multiple_negatives but better
+
+multiple_negatives_12 
+does not use sample negatives
+learning_rate=2e-6
+epochs = 3
+weight_decay=2e-1
+results=same as multiple_negatives but worse
+
+multiple_negatives_13 
+does not use sample negatives
+learning_rate=2e-6
+epochs = 3
+weight_decay=7e-2
+results=same as 11 but worse
+
+multiple_negatives_14
+use all labels
+learning_rate=2e-6
+epochs = 3
+weight_decay=3e-2
+results=gives slightly high scores than 11
