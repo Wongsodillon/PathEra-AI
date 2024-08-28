@@ -1,0 +1,11 @@
+####
+POST http://127.0.0.1:5020/recommend
+Content-Type: application/json
+
+{
+        "user_id": 1,
+        "job_title": "Data Scientist,Data Analyst,Data Engineer,Machine Learning Engineer",
+        "skills": "Python,Machine Learning,Deep Learning,Data Science,Data Analysis,Data Engineering,SQL,Tensorflow,Pytorch,Scikit-learn,Natural Language Processing,R",
+        "degree": "Bachelor's Degree",
+        "years_of_experience": 1
+}
