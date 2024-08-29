@@ -1,9 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 import pandas as pd
-from JobMatcher.job_matcher import JobRecommender 
+from JobMatcher.job_matcher import JobRecommender
 
 app = Flask(__name__)
-model = JobRecommender()  
+CORS(app)  # Apply CORS to the Flask app
+
+model = JobRecommender()
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
