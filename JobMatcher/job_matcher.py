@@ -1,24 +1,21 @@
 import pandas as pd
 import numpy as np
-import re
 import os
-import spacy
-from spacy.matcher import Matcher
-from transformers import pipeline
-from transformers import AutoTokenizer, BertTokenizer, BertModel
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 
 class JobRecommender:
     def __init__(self):
-        self.data = pd.read_csv('job_preprocessed.csv')
+        file_path = os.path.join(os.path.dirname(__file__), 'job_preprocessed.csv')
+        if not os.path.isfile(file_path):
+            raise FileNotFoundError(f"The file {file_path} was not found.")
+        self.data = pd.read_csv(file_path)
         self.data.sample(frac=1).reset_index(drop=True)
         self.load_model()
 
     def load_model(self):
         self.model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
-        # self.model = SentenceTransformer("all-mpnet-base-v2")
-    
+
     def calculate_title_similarity(self, job_title, user_titles):
         job_title = job_title.lower()
         user_titles = user_titles.lower().split(",")
@@ -28,11 +25,10 @@ class JobRecommender:
         user_embeddings = embeddings[1:]
         similarities = cosine_similarity([job_title_embedding], user_embeddings)[0]
         return max(similarities) * 100
-    
+
     def calculate_skill_similarity(self, job_skills, user_skills):
         job_skills = job_skills.lower().split(",")
         user_skills = user_skills.lower().split(",")
-        # strip white spaces
         job_skills = [skill.strip() for skill in job_skills]
         user_skills = [skill.strip() for skill in user_skills]
         concat = job_skills + user_skills
@@ -52,7 +48,7 @@ class JobRecommender:
             if max_similarity > 0.4:
                 matches.append({"matched_skill": job_skills[i], "user_skill": user_skills[max_index], "similarity": round(max_similarity * 100, 3)})
                 score += max_similarity
-        score = score/len(job_skills) * 100
+        score = score / len(job_skills) * 100
         if len(matches) == 0:
             matches = None
         else:
@@ -91,7 +87,7 @@ class JobRecommender:
             return 0
         if job_experience <= user_experience:
             return 100
-        return 0  
+        return 0
 
     def calculate_overall_score(self, title_score, skill_score, degree_score, experience_score):
         result = []
@@ -103,8 +99,8 @@ class JobRecommender:
         result.append(title_score)
         if len(result) == 0:
             return 0
-        return sum(result)/len(result)  
-    
+        return sum(result) / len(result)
+
     def recommend_jobs(self, user_data):
         self.batch_size = 5
         self.start = 1
@@ -147,16 +143,18 @@ class JobRecommender:
         self.skill_matches = pd.DataFrame({"match_id": self.match_ids, "skill_matches": self.skill_matches})
         self.skill_matches = self.skill_matches.dropna(subset=['skill_matches'])
         return self.result, self.skill_matches
-        
-user_data = {
-    "user_id": 1,
-    "job_title": "Data Scientist,Data Analyst,Data Engineer,Machine Learning Engineer",
-    "skills": "Python,Machine Learning,Deep Learning,Data Science,Data Analysis,Data Engineering,SQL,Tensorflow,Pytorch,Scikit-learn,Natural Language Processing,R",
-    "degree":  "Bachelor's Degree",
-    "years_of_experience": 1
-}
-user_data = pd.DataFrame(user_data, index=[0])
-model = JobRecommender()
-result, skill_matches = model.recommend_jobs(user_data)
-print(result.to_json(orient='records'))
-print(skill_matches.to_json(orient='records'))
+
+# Example usage
+if __name__ == "__main__":
+    user_data = {
+        "user_id": 1,
+        "job_title": "Data Scientist,Data Analyst,Data Engineer,Machine Learning Engineer",
+        "skills": "Python,Machine Learning,Deep Learning,Data Science,Data Analysis,Data Engineering,SQL,Tensorflow,Pytorch,Scikit-learn,Natural Language Processing,R",
+        "degree": "Bachelor's Degree",
+        "years_of_experience": 1
+    }
+    user_data_df = pd.DataFrame(user_data, index=[0])
+    model = JobRecommender()
+    result, skill_matches = model.recommend_jobs(user_data_df)
+    print(result.to_json(orient='records'))
+    print(skill_matches.to_json(orient='records'))
