@@ -1,0 +1,60 @@
+id,Question,Job_Title
+1,What is sentiment analysis?,Data Science
+2,Explain the curse of dimensionality?,Data Science
+3,What is the purpose of feature engineering in machine learning?,Data Science
+4,What is policy gradient in reinforcement learning?,Data Science
+5,What is self-supervised learning?,Data Science
+6,What is reinforcement learning?,Data Science
+7,What is a Generative Adversarial Network (GAN)?,Data Science
+8,What is the Kullback-Leibler (KL) divergence?,Data Science
+9,What is the purpose of density estimation?,Data Science
+10,How does regularization prevent overfitting in neural networks?,Data Science
+11,What is the difference between generative and discriminative models?,Data Science
+12,What is anomaly detection?,Data Science
+13,What is backpropagation?,Data Science
+14,What is the Gaussian Mixture Model (GMM)?,Data Science
+15,What is t-SNE,Data Science
+16,What is Singular Value Decomposition (SVD)?,Data Science
+17,What are some common techniques for feature engineering?,Data Science
+18,What is the Expectation-Maximization (EM) algorithm?,Data Science
+19,What is a convolutional neural network (CNN)?,Data Science
+20,What are the common anomaly detection techniques?,Data Science
+21,What is batch normalization in neural networks?,Data Science
+22,What is the purpose of self-organizing maps (SOMs)?,Data Science
+23,What is the purpose of cross-validation?,Data Science
+24,What is the advantage function in reinforcement learning?,Data Science
+25,What is the p-value in hypothesis testing?,Data Science
+26,What are some challenges in working with unstructured data?,Data Science
+27,What is sequence-to-sequence learning?,Data Science
+28,What is the difference between generative and discriminative clustering algorithms?,Data Science
+29,What is a Variational Autoencoder (VAE)?,Data Science
+30,What is the difference between on-policy and off-policy learning in reinforcement learning?,Data Science
+31,What is the exploration-exploitation dilemma in reinforcement learning?,Data Science
+32,What is DBSCAN clustering?,Data Science
+33,What is semi-supervised learning?,Data Science
+34,What is the difference between bagging and boosting?,Data Science
+35,What are some evaluation metrics used in recommendation systems?,Data Science
+36,What is attention mechanism in deep learning?,Data Science
+37,What are some common optimization algorithms used in deep learning?,Data Science
+38,How do you handle missing data in a dataset?,Data Science
+39,What is deep reinforcement learning?,Data Science
+40,What is Q-learning?,Data Science
+41,What is exploitation in reinforcement learning?,Data Science
+42,What is data augmentation in deep learning?,Data Science
+43,What is the difference between batch gradient descent and stochastic gradient descent?,Data Science
+44,What is natural language processing (NLP)?,Data Science
+45,What is the Markov Decision Process (MDP)?,Data Science
+46,What is the purpose of activation functions in neural networks?,Data Science
+47,What is association rule learning?,Data Science
+48,What is the purpose of cross-validation in model evaluation?,Data Science
+49,What is SARSA?,Data Science
+50,What is the exploration-exploitation trade-off in reinforcement learning?,Data Science
+51,What is collaborative filtering in recommendation systems?,Data Science
+52,What is Isolation Forest?,Data Science
+53,What is the difference between batch processing and real-time processing?,Data Science
+54,What is the elbow method used for in K-means clustering?,Data Science
+55,What are Deep Q-Networks (DQN)?,Data Science
+56,What is named entity recognition (NER)?,Data Science
+57,What is transfer learning in NLP?,Data Science
+58,What is the exploration-exploitation tradeoff in reinforcement learning?,Data Science
+59,What is a Restricted Boltzmann Machine (RBM)?,Data Science
