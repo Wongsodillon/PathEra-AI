@@ -1,12 +1,22 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Import CORS
+from flask_cors import CORS 
 import pandas as pd
 from JobMatcher.job_matcher import JobRecommender
+from InterviewSimulation.evaluator import Evaluator
 
 app = Flask(__name__)
-CORS(app)  # Apply CORS to the Flask app
+CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+
+db_config = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': '',
+    'database': 'pathera',
+    'port': 3306
+}
 
 model = JobRecommender()
+evaluator = Evaluator(db_config=db_config)
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -30,6 +40,24 @@ def recommend():
             return jsonify({'success': False, 'error': str(e)}), 500
     else:
         return jsonify({"error": "Request must be JSON"}), 400
+
+@app.route('/evaluate', methods=["POST"]) 
+def evaluate():
+    if not request.is_json:
+        return jsonify({"error": "Request must be JSON"}), 400
+    data = request.get_json()
+    question_id = data.get('question_id')
+    user_answer = data.get('user_answer')
+    if not question_id or not user_answer:
+        return jsonify({"error": "Missing required fields"}), 400
+    if evaluator.check_question_exists(question_id) is False:
+        return jsonify({"error": "Question does not exist"}), 400
+    try:
+        score = evaluator.evaluate(question_id, user_answer)
+        return jsonify({"success": True, "score": score }), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    return jsonify({"success": True}), 200
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False, port=5020)
