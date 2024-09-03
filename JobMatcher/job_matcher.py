@@ -40,7 +40,7 @@ class JobRecommender:
         for i in range(len(job_skills)):
             if job_skills[i] in user_skills:
                 score += 1
-                matches.append({"matched_skill": job_skills[i], "user_skill": user_skills[max_index], "similarity": 100})
+                matches.append({"matched_skill": job_skills[i], "user_skill": user_skills[i], "similarity": 100})
                 continue
             similarities = cosine_similarity([job_embeddings[i]], user_embeddings)[0]
             max_similarity = max(similarities)
