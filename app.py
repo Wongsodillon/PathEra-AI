@@ -16,7 +16,7 @@ db_config = {
 }
 
 model = JobRecommender()
-evaluator = Evaluator(db_config=db_config)
+evaluator = Evaluator(db_config=db_config, model_name="model/multiple_negatives_11")
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
