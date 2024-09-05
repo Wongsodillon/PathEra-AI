@@ -24,6 +24,7 @@ def recommend():
         try:
             user_data = request.get_json()
             user_data_df = pd.DataFrame([user_data])
+            print(user_data_df['skills'])
             result, skill_matches = model.recommend_jobs(user_data_df)
             
             return jsonify({

@@ -10,7 +10,7 @@ class JobRecommender:
         if not os.path.isfile(file_path):
             raise FileNotFoundError(f"The file {file_path} was not found.")
         self.data = pd.read_csv(file_path)
-        self.data.sample(frac=1).reset_index(drop=True)
+        self.data = self.data.head(250)
         self.load_model()
 
     def load_model(self):
@@ -27,33 +27,52 @@ class JobRecommender:
         return max(similarities) * 100
 
     def calculate_skill_similarity(self, job_skills, user_skills):
+        if pd.isna(job_skills) or job_skills.strip() == "":
+            return 0, None
+        if pd.isna(user_skills) or user_skills.strip() == "":
+            return 0, None
+
         job_skills = job_skills.lower().split(",")
         user_skills = user_skills.lower().split(",")
+        
         job_skills = [skill.strip() for skill in job_skills]
         user_skills = [skill.strip() for skill in user_skills]
+        
         concat = job_skills + user_skills
         embeddings = self.model.encode(concat)
         job_embeddings = embeddings[:len(job_skills)]
         user_embeddings = embeddings[len(job_skills):]
+        
         matches = []
         score = 0
+
         for i in range(len(job_skills)):
-            if job_skills[i] in user_skills:
+            if i < len(user_skills) and job_skills[i] == user_skills[i]:
                 score += 1
                 matches.append({"matched_skill": job_skills[i], "user_skill": user_skills[i], "similarity": 100})
-                continue
-            similarities = cosine_similarity([job_embeddings[i]], user_embeddings)[0]
-            max_similarity = max(similarities)
-            max_index = np.argmax(similarities)
-            if max_similarity > 0.4:
-                matches.append({"matched_skill": job_skills[i], "user_skill": user_skills[max_index], "similarity": round(max_similarity * 100, 3)})
-                score += max_similarity
+            else:
+                similarities = cosine_similarity([job_embeddings[i]], user_embeddings)[0]
+                max_similarity = max(similarities)
+                max_index = np.argmax(similarities)
+                
+                if max_similarity > 0.4:
+                    matched_user_skill = user_skills[max_index] if max_index < len(user_skills) else None
+                    matches.append({
+                        "matched_skill": job_skills[i], 
+                        "user_skill": matched_user_skill, 
+                        "similarity": round(max_similarity * 100, 3)
+                    })
+                    score += max_similarity
+        
         score = score / len(job_skills) * 100
+
         if len(matches) == 0:
             matches = None
         else:
             matches = pd.DataFrame(matches).to_json(orient='records')
+
         return score, matches
+
 
     def get_degree_value(self, degree):
         if pd.isna(degree):
@@ -90,20 +109,16 @@ class JobRecommender:
         return 0
 
     def calculate_overall_score(self, title_score, skill_score, degree_score, experience_score):
-        result = []
-        if degree_score != -1:
-            result.append(degree_score)
-        if experience_score != -1:
-            result.append(experience_score)
-        result.append(skill_score)
-        result.append(title_score)
-        if len(result) == 0:
-            return 0
-        return sum(result) / len(result)
+        if experience_score == -1 and degree_score == -1:
+            return (skill_score * 0.5) + (experience_score * 0.5)
+        elif experience_score == -1:
+            return (skill_score * 0.4) + (experience_score * 0.4) + (degree_score * 0.2)
+        elif degree_score == -1:
+            return (title_score * 0.4) + (skill_score * 0.4) + (experience_score * 0.2)
+        return (title_score * 0.35) + (skill_score * 0.35) + (degree_score * 0.15) + (experience_score * 0.15)
 
     def recommend_jobs(self, user_data):
         self.batch_size = 5
-        self.start = 1
         self.job_ids = []
         self.match_ids = []
         self.title_scores = []
@@ -112,26 +127,32 @@ class JobRecommender:
         self.degree_scores = []
         self.experience_scores = []
         self.overall_scores = []
-        for i in range(self.start, self.start + self.batch_size):
+        
+        for i in range(len(self.data) // 2):
             job = self.data.iloc[i]
             self.match_ids.append(i)
+            print(f"Processing job {i + 1}/{len(self.data)}")
             self.job_ids.append(job['job_id'])
+            
             title_score = self.calculate_title_similarity(job['job_title'], user_data['job_title'].iloc[0])
             self.title_scores.append(title_score)
+            
             skill_score, skill_matches = self.calculate_skill_similarity(job['skills'], user_data['skills'].iloc[0])
             self.skill_scores.append(skill_score)
-            self.skill_matches.append(skill_matches)
+            
+            self.skill_matches.append(skill_matches if skill_matches is not None else '[]')
+            
             degree_score = self.calculate_degree_similarity(job['degree'], user_data['degree'].iloc[0])
             self.degree_scores.append(degree_score)
+            
             experience_score = self.calculate_experience_similarity(job['min_experience'], user_data['years_of_experience'].iloc[0])
             self.experience_scores.append(experience_score)
+            
             overall_score = self.calculate_overall_score(title_score, skill_score, degree_score, experience_score)
             self.overall_scores.append(overall_score)
-        
+
         self.result = pd.DataFrame({
-            "match_id": self.match_ids,
-            "job_id": self.job_ids,
-            "user_id": [user_data['user_id'].iloc[0]] * self.batch_size,
+            "id": self.job_ids,
             "title_score": self.title_scores,
             "skill_score": self.skill_scores,
             "degree_score": self.degree_scores,
@@ -140,11 +161,14 @@ class JobRecommender:
         })
 
         self.result = self.result.sort_values(by='similarity', ascending=False)
+
         self.skill_matches = pd.DataFrame({"match_id": self.match_ids, "skill_matches": self.skill_matches})
+
         self.skill_matches = self.skill_matches.dropna(subset=['skill_matches'])
+        
         return self.result, self.skill_matches
 
-# Example usage
+
 if __name__ == "__main__":
     user_data = {
         "user_id": 1,
