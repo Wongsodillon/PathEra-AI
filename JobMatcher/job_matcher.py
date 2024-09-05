@@ -80,7 +80,9 @@ class JobRecommender:
         degrees = degree.lower().split(",")
         min_degree = 4
         for d in degrees:
-            if 'bachelor' in d or 'undergraduate' in d:
+            if 'no degree' in d:
+                min_degree = min(min_degree, 0)
+            elif 'bachelor' in d or 'undergraduate' in d:
                 min_degree = min(min_degree, 1)
             elif 'master' in d or 'mba' in d:
                 min_degree = min(min_degree, 2)
@@ -112,10 +114,10 @@ class JobRecommender:
         if experience_score == -1 and degree_score == -1:
             return (skill_score * 0.5) + (experience_score * 0.5)
         elif experience_score == -1:
-            return (skill_score * 0.4) + (experience_score * 0.4) + (degree_score * 0.2)
+            return (skill_score * 0.45) + (experience_score * 0.45) + (degree_score * 0.1)
         elif degree_score == -1:
-            return (title_score * 0.4) + (skill_score * 0.4) + (experience_score * 0.2)
-        return (title_score * 0.35) + (skill_score * 0.35) + (degree_score * 0.15) + (experience_score * 0.15)
+            return (title_score * 0.40) + (skill_score * 0.40) + (experience_score * 0.2)
+        return (title_score * 0.40) + (skill_score * 0.40) + (degree_score * 0.05) + (experience_score * 0.15)
 
     def recommend_jobs(self, user_data):
         self.batch_size = 5
@@ -128,7 +130,7 @@ class JobRecommender:
         self.experience_scores = []
         self.overall_scores = []
         
-        for i in range(len(self.data) // 2):
+        for i in range(len(self.data)):
             job = self.data.iloc[i]
             self.match_ids.append(i)
             print(f"Processing job {i + 1}/{len(self.data)}")
@@ -161,9 +163,8 @@ class JobRecommender:
         })
 
         self.result = self.result.sort_values(by='similarity', ascending=False)
-
-        self.skill_matches = pd.DataFrame({"match_id": self.match_ids, "skill_matches": self.skill_matches})
-
+        self.skill_matches = pd.DataFrame({"job_id": self.job_ids, "skill_matches": self.skill_matches})
+        self.skill_matches = self.skill_matches.set_index("job_id").reindex(self.result['id']).reset_index()
         self.skill_matches = self.skill_matches.dropna(subset=['skill_matches'])
         
         return self.result, self.skill_matches
