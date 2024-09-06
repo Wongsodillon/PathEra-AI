@@ -6,7 +6,7 @@ from JobMatcher.job_matcher import JobRecommender
 from InterviewSimulation.evaluator import Evaluator
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": ["https://pathera.vercel.app/"]}})
+CORS(app, resources={r"/*": {"origins": "https://pathera.vercel.app/"}})
 
 db_config = {
     'host': os.getenv('DB_HOST', 'localhost'),  
