@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify
 from flask_cors import CORS 
 import pandas as pd
@@ -5,18 +6,19 @@ from JobMatcher.job_matcher import JobRecommender
 from InterviewSimulation.evaluator import Evaluator
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/*": {"origins": ["http://localhost:5173", "https://pathera.vercel.app/"]}})
 
 db_config = {
-    'host': 'localhost',
-    'user': 'root',
-    'password': '',
-    'database': 'pathera',
-    'port': 3306
+    'host': os.getenv('DB_HOST', 'localhost'),  
+    'user': os.getenv('DB_USER', 'root'),     
+    'password': os.getenv('DB_PASSWORD', ''),   
+    'database': os.getenv('DB_NAME', 'pathera'), 
+    'port': int(os.getenv('DB_PORT', 3306))     
 }
 
 model = JobRecommender()
-evaluator = Evaluator(db_config=db_config, model_name="model/multiple_negatives_11")
+# evaluator = Evaluator(db_config=db_config, model_name="./InterviewSimulation/model/multiple_negatives_11")
+evaluator = Evaluator(db_config=db_config)
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
@@ -61,4 +63,4 @@ def evaluate():
     return jsonify({"success": True}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=False, port=5020)
+    app.run(debug=True, use_reloader=False, port=int(os.getenv('PORT', 5020)))
