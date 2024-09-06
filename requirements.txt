@@ -5,6 +5,7 @@ torch
 rake_nltk
 transformers
 datasets
+mysql.connector
 scikit-learn
 matplotlib
 seaborn
