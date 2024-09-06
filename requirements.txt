@@ -10,3 +10,4 @@ tqdm
 opencv-python
 sentence-transformers
 flask
+spacy
