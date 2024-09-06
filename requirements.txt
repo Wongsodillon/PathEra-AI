@@ -1,6 +1,8 @@
 numpy
+nltk
 pandas
 torch
+rake_nltk
 transformers
 datasets
 scikit-learn
