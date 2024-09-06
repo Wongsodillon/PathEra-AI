@@ -13,4 +13,5 @@ tqdm
 opencv-python
 sentence-transformers
 flask
+flask_cors
 spacy
